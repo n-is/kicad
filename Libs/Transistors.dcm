@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC547
+D 45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
+K NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC547.pdf
+$ENDCMP
+#
+#End Doc Library
