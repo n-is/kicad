@@ -1,0 +1,378 @@
+EESchema Schematic File Version 4
+LIBS:FourMotorsWithEncoders-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 "Author : n-is"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7070 680  0    100  ~ 20
+Arduino Mega
+Text Label 11025 2450 2    60   ~ 0
+OC1B
+Text Label 11025 2550 2    60   ~ 0
+OC1A
+Text Label 11025 3050 2    60   ~ 0
+OC4B
+Text Label 11025 3650 2    60   ~ 0
+Tx0
+Text Label 11025 3750 2    60   ~ 0
+Rx0
+Text Label 11025 3950 2    60   ~ 0
+Tx3
+Text Label 11025 4050 2    60   ~ 0
+Rx3
+Text Label 11025 4150 2    60   ~ 0
+Tx2
+Text Label 11025 4250 2    60   ~ 0
+Rx2
+Text Label 10725 1700 0    60   ~ 0
+SDA
+Text Label 10725 1600 0    60   ~ 0
+SCL
+NoConn ~ 7850 2450
+Text Label 7100 2350 0    60   ~ 0
+RESET
+Text Label 7450 2100 1    60   ~ 0
+Vin
+Text Label 9250 4475 3    60   ~ 0
+OC5A
+Text Label 9150 4475 3    60   ~ 0
+OC5C
+Text Label 11025 4650 0    60   ~ 0
+INT0
+Text Label 11025 4550 0    60   ~ 0
+INT1
+Text Label 11025 3550 0    60   ~ 0
+INT4
+Text Label 11025 3450 0    60   ~ 0
+INT5
+Text Label 11025 1600 0    60   ~ 0
+INT0
+Text Label 11025 1700 0    60   ~ 0
+INT1
+Wire Notes Line
+	6970 7795 6970 470 
+Wire Notes Line
+	6970 750  8185 750 
+Wire Notes Line
+	8185 750  8185 470 
+Wire Wire Line
+	10650 2350 11025 2350
+Wire Wire Line
+	10650 2450 11025 2450
+Wire Wire Line
+	10650 2550 11025 2550
+Wire Wire Line
+	10650 2650 11025 2650
+Wire Wire Line
+	10650 2750 11025 2750
+Wire Wire Line
+	10650 2850 11025 2850
+Wire Wire Line
+	10650 3050 11025 3050
+Wire Wire Line
+	10650 3150 11025 3150
+Wire Wire Line
+	10650 3250 11025 3250
+Wire Wire Line
+	10650 3350 11025 3350
+Wire Wire Line
+	10650 3450 11025 3450
+Wire Wire Line
+	10650 3550 11025 3550
+Wire Wire Line
+	10650 3650 11025 3650
+Wire Wire Line
+	10650 3750 11025 3750
+Wire Wire Line
+	10650 3950 11025 3950
+Wire Wire Line
+	10650 4050 11025 4050
+Wire Wire Line
+	10650 4150 11025 4150
+Wire Wire Line
+	10650 4250 11025 4250
+Wire Wire Line
+	10650 4350 11025 4350
+Wire Wire Line
+	10650 4450 11025 4450
+Wire Wire Line
+	10650 4550 11025 4550
+Wire Wire Line
+	10650 4650 11025 4650
+Wire Wire Line
+	8550 4850 8550 4475
+Wire Wire Line
+	8650 4850 8650 4475
+Wire Wire Line
+	8750 4850 8750 4475
+Wire Wire Line
+	8850 4850 8850 4475
+Wire Wire Line
+	8950 4850 8950 4475
+Wire Wire Line
+	9050 4850 9050 4475
+Wire Wire Line
+	9150 4850 9150 4475
+Wire Wire Line
+	9250 4850 9250 4475
+Wire Wire Line
+	9350 4850 9350 4475
+Wire Wire Line
+	9450 4850 9450 4475
+Wire Wire Line
+	9550 4850 9550 4475
+Wire Wire Line
+	9650 4850 9650 4475
+Wire Wire Line
+	9750 4850 9750 4475
+Wire Wire Line
+	9850 4850 9850 4475
+Wire Wire Line
+	9950 4850 9950 4475
+Wire Wire Line
+	10050 4850 10050 4475
+Wire Wire Line
+	8550 5500 8550 5875
+Wire Wire Line
+	8650 5500 8650 5875
+Wire Wire Line
+	8750 5500 8750 5875
+Wire Wire Line
+	8850 5500 8850 5875
+Wire Wire Line
+	8950 5500 8950 5875
+Wire Wire Line
+	9050 5500 9050 5875
+Wire Wire Line
+	9150 5500 9150 5875
+Wire Wire Line
+	9250 5500 9250 5875
+Wire Wire Line
+	9350 5500 9350 5875
+Wire Wire Line
+	9450 5500 9450 5875
+Wire Wire Line
+	9550 5500 9550 5875
+Wire Wire Line
+	9650 5500 9650 5875
+Wire Wire Line
+	9750 5500 9750 5875
+Wire Wire Line
+	9850 5500 9850 5875
+Wire Wire Line
+	9950 5500 9950 5875
+Wire Wire Line
+	10050 5500 10050 5875
+Wire Wire Line
+	10650 1700 11025 1700
+Wire Wire Line
+	10650 1600 11025 1600
+Wire Wire Line
+	7700 2200 7700 2550
+Wire Wire Line
+	7700 2550 7850 2550
+Wire Wire Line
+	7850 2650 7850 2750
+Wire Wire Line
+	7450 2850 7850 2850
+Wire Wire Line
+	7850 2350 7100 2350
+Text Label 9350 4475 3    60   ~ 0
+PC1
+Text Label 9450 4475 3    60   ~ 0
+PC3
+Text Label 9550 4475 3    60   ~ 0
+PC5
+Text Label 9050 4475 3    60   ~ 0
+PL1
+Text Label 8950 4475 3    60   ~ 0
+PL3
+Text Label 8850 4475 3    60   ~ 0
+PL5
+Text Label 11025 3150 0    60   ~ 0
+PH3
+Text Label 11025 3250 0    60   ~ 0
+PE3
+Text Label 11025 3350 0    60   ~ 0
+PG5
+Text Label 11025 2850 0    60   ~ 0
+PH5
+Text Label 11025 2750 0    60   ~ 0
+PH6
+Text Label 11025 2650 0    60   ~ 0
+PB4
+NoConn ~ 7850 3050
+NoConn ~ 7850 3150
+NoConn ~ 7850 3250
+NoConn ~ 7850 3350
+NoConn ~ 7850 3450
+NoConn ~ 7850 3550
+NoConn ~ 7850 3650
+NoConn ~ 7850 3750
+NoConn ~ 8550 4475
+NoConn ~ 8650 4475
+NoConn ~ 8750 4475
+NoConn ~ 9650 4475
+NoConn ~ 9750 4475
+NoConn ~ 9850 4475
+NoConn ~ 9950 4475
+NoConn ~ 10050 4475
+NoConn ~ 10200 4750
+NoConn ~ 10200 5600
+NoConn ~ 8550 5875
+NoConn ~ 8650 5875
+NoConn ~ 8750 5875
+NoConn ~ 8850 5875
+NoConn ~ 8950 5875
+NoConn ~ 9050 5875
+NoConn ~ 9150 5875
+NoConn ~ 9650 5875
+NoConn ~ 9750 5875
+NoConn ~ 9850 5875
+NoConn ~ 9950 5875
+NoConn ~ 10050 5875
+NoConn ~ 8400 4750
+NoConn ~ 8400 5600
+NoConn ~ 11025 3650
+NoConn ~ 11025 3750
+Text Label 11025 4450 0    60   ~ 0
+PD2
+Text Label 11025 4350 0    60   ~ 0
+PD3
+Text Label 11025 2350 0    60   ~ 0
+PB7
+Text Label 7850 3950 2    60   ~ 0
+AD8
+Text Label 7850 4050 2    60   ~ 0
+AD9
+Text Label 7850 4150 2    60   ~ 0
+AD10
+Text Label 7850 4250 2    60   ~ 0
+AD11
+Text Label 7850 4350 2    60   ~ 0
+AD12
+Text Label 7850 4450 2    60   ~ 0
+AD13
+Text Label 7850 4550 2    60   ~ 0
+AD14
+Text Label 7850 4650 2    60   ~ 0
+AD15
+NoConn ~ 8850 4475
+NoConn ~ 8950 4475
+NoConn ~ 9050 4475
+NoConn ~ 9150 4475
+Text Label 9250 5875 1    60   ~ 0
+PG6
+Text Label 9350 5875 1    60   ~ 0
+PC0
+Text Label 9450 5875 1    60   ~ 0
+PC2
+Text Label 9550 5875 1    60   ~ 0
+PC4
+Wire Wire Line
+	7450 2850 7450 2100
+$Comp
+L newGeneric:Arduino_Mega U?
+U 1 1 5A0F3613
+P 9300 3250
+F 0 "U?" H 9250 5160 60  0000 C CNN
+F 1 "Arduino_Mega" H 9250 5060 60  0000 C CNN
+F 2 "Mods:ARDUINO_MEGA_SHIELD" H 9300 2000 60  0001 C CNN
+F 3 "http://www.robotshop.com/media/files/pdf/arduinomega2560datasheet.pdf" H 9300 2000 60  0001 C CNN
+	1    9300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5A0F37AA
+P 10740 1850
+F 0 "#PWR?" H 10740 1700 50  0001 C CNN
+F 1 "+5V" H 10840 1910 50  0000 C CNN
+F 2 "" H 10740 1850 50  0001 C CNN
+F 3 "" H 10740 1850 50  0001 C CNN
+	1    10740 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10740 1850 10740 1900
+Wire Wire Line
+	10740 1900 10650 1900
+$Comp
+L device:C C?
+U 1 1 5A0F3842
+P 10890 1900
+F 0 "C?" V 10950 1820 50  0000 C CNN
+F 1 "0.1uF" V 11030 1900 50  0000 C CNN
+F 2 "" H 10928 1750 50  0001 C CNN
+F 3 "" H 10890 1900 50  0001 C CNN
+	1    10890 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5A0F3961
+P 11120 1950
+F 0 "#PWR?" H 11120 1700 50  0001 C CNN
+F 1 "GND" H 11120 1800 50  0000 C CNN
+F 2 "" H 11120 1950 50  0001 C CNN
+F 3 "" H 11120 1950 50  0001 C CNN
+	1    11120 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11040 1900 11120 1900
+Wire Wire Line
+	11120 1900 11120 1950
+$Comp
+L power:GND #PWR?
+U 1 1 5A0F39BE
+P 10680 2030
+F 0 "#PWR?" H 10680 1780 50  0001 C CNN
+F 1 "GND" H 10680 1900 50  0000 C CNN
+F 2 "" H 10680 2030 50  0001 C CNN
+F 3 "" H 10680 2030 50  0001 C CNN
+	1    10680 2030
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 2000 10680 2000
+Wire Wire Line
+	10680 2000 10680 2030
+$Comp
+L power:GND #PWR?
+U 1 1 5A0F3AF3
+P 7700 2900
+F 0 "#PWR?" H 7700 2650 50  0001 C CNN
+F 1 "GND" H 7700 2770 50  0000 C CNN
+F 2 "" H 7700 2900 50  0001 C CNN
+F 3 "" H 7700 2900 50  0001 C CNN
+	1    7700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2900 7700 2700
+Wire Wire Line
+	7700 2700 7850 2700
+Connection ~ 7850 2700
+$Comp
+L power:+5V #PWR?
+U 1 1 5A0F3B6C
+P 7700 2200
+F 0 "#PWR?" H 7700 2050 50  0001 C CNN
+F 1 "+5V" H 7800 2260 50  0000 C CNN
+F 2 "" H 7700 2200 50  0001 C CNN
+F 3 "" H 7700 2200 50  0001 C CNN
+	1    7700 2200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
