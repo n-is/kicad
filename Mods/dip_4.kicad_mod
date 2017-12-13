@@ -1,4 +1,4 @@
-(module dip_4 (layer F.Cu) (tedit 5A05B2C2)
+(module dip_4 (layer F.Cu) (tedit 5A31016E)
   (descr "6 pins DIL package, round pads")
   (tags DIL)
   (fp_text reference U? (at -6.35 0 90) (layer F.SilkS)
@@ -18,8 +18,8 @@
   (pad 2 thru_hole circle (at 0 3.81) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 0 -3.81) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 4 thru_hole circle (at -2.54 -3.81) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (model /home/n-is/kicad/_3D/NO_IP_3Ds/pth_circuits/dil_4-300.wrl
-    (at (xyz -0.05 0 0))
+  (model ${KICAD_CUSTOM}/_3D/NO_IP_3Ds/pth_circuits/dil_4-300.wrl
+    (offset (xyz -1.269999980926514 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

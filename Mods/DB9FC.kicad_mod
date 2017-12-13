@@ -1,4 +1,4 @@
-(module DB9FC (layer F.Cu) (tedit 5A05B1CF)
+(module DB9FC (layer F.Cu) (tedit 5A3100FC)
   (descr "Connecteur DB9 femelle couche")
   (tags "CONN DB9")
   (fp_text reference REF** (at 5.46 2.28) (layer F.SilkS)
@@ -29,8 +29,8 @@
   (pad 1 thru_hole circle (at 0 0) (size 2.032 2.032) (drill 0.8) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at -7.11 -2.54) (size 5.08 5.08) (drill 3.05) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 18.29 -2.54) (size 5.08 5.08) (drill 3.05) (layers *.Cu *.Mask))
-  (model /home/n-is/kicad/_3D/NO_IP_3Ds/conn/db_9f.wrl
-    (at (xyz 0.215 0.325 -0.025))
+  (model ${KICAD_CUSTOM}/_3D/NO_IP_3Ds/conn/db_9f.wrl
+    (offset (xyz 5.460999917984009 8.254999876022339 -0.6349999904632568))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 5 180))
   )

@@ -1,4 +1,4 @@
-(module Cap_10uF (layer F.Cu) (tedit 5A257268)
+(module Cap_10uF (layer F.Cu) (tedit 5A3100DD)
   (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
   (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
   (fp_text reference REF** (at 1.25 -3.81) (layer F.SilkS)

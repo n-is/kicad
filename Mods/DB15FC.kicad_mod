@@ -1,4 +1,4 @@
-(module DB15FC (layer F.Cu) (tedit 5A05B260)
+(module DB15FC (layer F.Cu) (tedit 5A310142)
   (descr "Connecteur DB15 femelle couche")
   (tags "CONN DB15")
   (fp_text reference REF** (at 9.65 -16.51) (layer F.SilkS)
@@ -50,8 +50,8 @@
   (pad 1 thru_hole circle (at 0 0) (size 2.032 2.032) (drill 0.800001) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at -7.11 -2.54) (size 5.08 5.08) (drill 3.05) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 26.42 -2.29) (size 5.08 5.08) (drill 3.05) (layers *.Cu *.Mask))
-  (model /home/n-is/kicad/_3D/NO_IP_3Ds/conn/db_15f.wrl
-    (at (xyz 0.385 0.33 0))
+  (model ${KICAD_CUSTOM}/_3D/NO_IP_3Ds/conn/db_15f.wrl
+    (offset (xyz 9.778999853134156 8.381999874114991 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )

@@ -1,4 +1,4 @@
-(module bornier2-medium (layer F.Cu) (tedit 5A05B2D9)
+(module bornier2-medium (layer F.Cu) (tedit 5A30FC8B)
   (descr "Bornier d'alimentation 2 pins")
   (tags DEV)
   (fp_text reference P? (at 0 -6.731) (layer F.SilkS)
@@ -14,7 +14,7 @@
   (fp_line (start -5.08 5.08) (end 5.08 5.08) (layer F.SilkS) (width 0.3048))
   (pad 1 thru_hole rect (at -2.54 0) (size 2.54 3.048) (drill 1.524) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole oval (at 2.54 0) (size 2.54 3.81) (drill 1.524) (layers *.Cu *.Mask F.SilkS))
-  (model /home/n-is/kicad/_3D/NO_IP_3Ds/conn/mkds_1,5-2.wrl
+  (model ${KICAD_CUSTOM}/_3D/NO_IP_3Ds/conn/mkds_1,5-2.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

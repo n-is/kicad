@@ -1,4 +1,4 @@
-(module C-MICA (layer F.Cu) (tedit 5A058EFF)
+(module C-MICA (layer F.Cu) (tedit 5A31003A)
   (fp_text reference C-MICA (at -0.254 -0.127) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -11,11 +11,11 @@
   (fp_line (start 6.985 -3.048) (end 6.985 1.905) (layer F.SilkS) (width 0.15))
   (fp_line (start -8.128 -3.048) (end 6.985 -3.048) (layer F.SilkS) (width 0.15))
   (fp_line (start -8.128 -0.635) (end -8.128 -3.048) (layer F.SilkS) (width 0.15))
-  (pad 2 thru_hole rect (at 4.572 -0.508) (size 3.048 3.048) (drill 1.01) (layers *.Cu *.Mask F.SilkS))
-  (pad 1 thru_hole rect (at -5.588 -0.508) (size 3.048 3.048) (drill 1.01) (layers *.Cu *.Mask F.SilkS))
-  (model /home/n-is/Documents/KiCad/new3D/kicad-packages3D/Capacitors_THT.3dshapes/C_Rect_L13.5mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4.wrl
-    (at (xyz -0.25 0.025 0))
-    (scale (xyz 1.1 1 1))
+  (pad 2 thru_hole rect (at 3.175 -0.508) (size 3.048 3.048) (drill 1.01) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at -3.429 -0.508) (size 3.048 3.048) (drill 1.01) (layers *.Cu *.Mask F.SilkS))
+  (model ${KISYS3DMOD}/Capacitors_THT.3dshapes/C_Rect_L10.0mm_W3.0mm_P7.50mm_FKS3_FKP3.wrl
+    (offset (xyz -4 0.5 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

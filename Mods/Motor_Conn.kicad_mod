@@ -1,4 +1,4 @@
-(module Motor_Conn (layer F.Cu) (tedit 5A080E5D)
+(module Motor_Conn (layer F.Cu) (tedit 5A3129D0)
   (descr "Through hole straight pin header, 2x05, 2.54mm pitch, double rows")
   (tags "Through hole pin header THT 2x05 2.54mm double row")
   (fp_text reference J5 (at 0 -7.874) (layer F.SilkS)
@@ -48,7 +48,7 @@
   (pad 9 thru_hole circle (at -1.27 5.08) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at 1.27 5.08) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_2x05_Pitch2.54mm.wrl
-    (at (xyz -0.05905511811023623 0.1968503937007874 0))
+    (offset (xyz -1.49999997747226 4.999999924907534 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

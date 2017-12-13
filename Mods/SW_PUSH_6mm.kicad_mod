@@ -1,4 +1,4 @@
-(module SW_PUSH_6mm (layer F.Cu) (tedit 5A039C2D)
+(module SW_PUSH_6mm (layer F.Cu) (tedit 5A312A35)
   (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
   (tags "tact sw push 6mm")
   (fp_text reference REF** (at 3.25 -2) (layer F.SilkS)
@@ -37,7 +37,7 @@
   (pad 1 thru_hole circle (at 0 0 90) (size 2.032 2.032) (drill 0.9906) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 4.5 90) (size 2.032 2.032) (drill 0.9906) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Buttons_Switches_THT.3dshapes/SW_PUSH_6mm.wrl
-    (at (xyz 0.005 0 0))
+    (offset (xyz 0.1269999980926514 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))
   )

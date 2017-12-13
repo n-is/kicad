@@ -1,4 +1,4 @@
-(module Cao_1000uF (layer F.Cu) (tedit 5A04510A)
+(module Cao_1000uF (layer F.Cu) (tedit 5A310063)
   (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=12.5mm, Electrolytic Capacitor")
   (tags "CP Radial series Radial pin pitch 5.00mm  diameter 12.5mm Electrolytic Capacitor")
   (fp_text reference REF** (at 2.5 -7.56) (layer F.SilkS)
